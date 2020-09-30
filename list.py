@@ -7,7 +7,7 @@ for i in l:
         if name == i:
                 print(f"{r}: {i}")
                 break
-        elif name != i:
+        else:
                 print(f"{r}: None")
                 r += 1
        
